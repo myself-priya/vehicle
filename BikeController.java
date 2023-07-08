@@ -20,7 +20,7 @@ import com.example.vehicle.globalExceptionHandling.PriceException;
 import com.example.vehicle.service.BikeService;
 
 @RestController
-@RequestMapping(value = "/bike")
+@RequestMapping(value = "/Bikee")
 public class BikeController {
 	@Autowired
 	BikeService bikeser;
