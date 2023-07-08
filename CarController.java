@@ -25,7 +25,7 @@ import com.example.vehicle.service.CarService;
 public class CarController {
 	@Autowired
 	CarService carSer;
-	@PostMapping (value ="/insert")
+	@PostMapping (value ="/insert1")
 	public String insertValue(@RequestBody CarEntity e) {
 		return carSer.insertValue(e);
 	}
